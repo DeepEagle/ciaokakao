@@ -4,6 +4,40 @@ html, body {
   padding: 0;
 }
 
+.preview {
+  font-family: Satisfy, serif;
+  font-size: clamp(3rem, 4vw, 5rem);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  z-index: 99999;
+  color: rgb(255, 255, 255);
+  opacity: 0.92;
+}
+
+.preview-loader{
+  border: 10px solid rgb(23,23,23); 
+  border-top: 10px solid rgb(250,250,250); 
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin-left: 2rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+
 .main {
   width: 100%;
   height: auto;
