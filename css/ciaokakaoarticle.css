@@ -1,0 +1,76 @@
+.articleContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.articledetail{
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+
+.articleHeading{
+  font-family: Satisfy, serif;
+  font-size: clamp(3rem, 4vw, 5rem);
+}
+
+
+
+#articleHandMade{
+  background-image: url('/images/Waldhintergrund.jpg') ;
+  background-size: cover;
+  color: white;
+}
+
+#yourDesign{
+  background-image: url('/images/Herbsthintergrund.jpg') ;
+  background-size: cover;
+  color: white;
+}
+
+#yourChoice{
+  background-image: url('/images/Mädchen.jpg') ;
+  background-size: cover;
+  color: white;
+}
+
+
+.articledescription{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.imgquad{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.imgSolo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.articleImage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.articleImageFull{
+  width: 100%;
+}
