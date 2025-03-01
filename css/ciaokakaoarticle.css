@@ -23,19 +23,19 @@
 
 
 #articleHandMade{
-  background-image: url('/images/Waldhintergrund.jpg') ;
+  background-image: url('images/Waldhintergrund.jpg') ;
   background-size: cover;
   color: white;
 }
 
 #yourDesign{
-  background-image: url('/images/Herbsthintergrund.jpg') ;
+  background-image: url('images/Herbsthintergrund.jpg') ;
   background-size: cover;
   color: white;
 }
 
 #yourChoice{
-  background-image: url('/images/Mädchen.jpg') ;
+  background-image: url('images/Mädchen.jpg') ;
   background-size: cover;
   color: white;
 }
