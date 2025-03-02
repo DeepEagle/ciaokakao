@@ -1,0 +1,70 @@
+.contactMe{
+  width: 100%;
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: roboto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    
+}
+
+.contactMe h1{
+  font-family: Satisfy, serif;
+  font-size: clamp(3rem, 4vw, 5rem);
+}
+
+
+.heading{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center
+}
+.contactField{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.submit{
+  width: 100%;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+
+.buttonSubmit{
+  color: white;
+  background-color: rgb(29,29,29);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 24px;
+  transition: transform 0.2s ease-in-out;}
+
+.buttonSubmit:hover{
+  transform: scale(1.1);
+}
+
+.inputMessage{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.5); /* Dezente dunkle Unterstreichung */
+  color: rgb(23, 23, 23); /* Dunkler Text */
+  padding: 8px;
+  font-size: 1rem;
+  transition: border-bottom 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.inputMessage:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(23, 23, 23); /* Klare Unterstreichung bei Fokus */
+  box-shadow: 0 3px 5px rgba(23, 23, 23, 0.2);
+}
+
+
