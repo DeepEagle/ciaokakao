@@ -8,7 +8,15 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
+    justify-content: space-between;
     
+}
+
+@media (max-width: 768px) {
+  .contactMe{
+    height: 80vh;
+    font-size: 1.5rem;
+  }
 }
 
 .contactMe h1{
@@ -26,6 +34,7 @@
 }
 .contactField{
   width: 100%;
+
   display: flex;
   justify-content: space-evenly
 }

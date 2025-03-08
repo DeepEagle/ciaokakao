@@ -12,6 +12,17 @@
     font-size: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  .footer{
+    height: 6rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .impressum, .contact{
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+ }
 .footer p{
   margin: 0;
 }

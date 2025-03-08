@@ -11,6 +11,16 @@
   z-index: 99;
 }
 
+@media (max-width: 768px) {
+  .header{
+    height: 6rem;
+
+  }
+  .headerlogo .fa{
+    font-size: 2rem;
+  }
+}
+
 .headerp{
   display: inline-block;
   position: relative;
