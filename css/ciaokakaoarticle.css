@@ -1,80 +1,89 @@
-.articleContainer{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.articleContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.articledetail{
-  width: 50%;
-  aspect-ratio: 1 / 1;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-size: clamp(1rem, 2vw, 2rem);
+.articledetail {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.articleHeading {
+    font-family: Satisfy, serif;
+    font-size: clamp(3rem, 4vw, 5rem);
+}
+
+#articleHandMade {
+    background-image: url("../images/Waldhintergrund.webp");
+    background-size: cover;
+    color: white;
+}
+
+#yourDesign {
+    background-image: url("../images/Herbsthintergrund.webp");
+    background-size: cover;
+    color: white;
+}
+
+#yourChoice {
+    background-image: url("../images/Mädchen.webp");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.articledescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgquad {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imgSolo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.articleImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.articleImageFull {
+    width: 100%;
 }
 
 @media (max-width: 768px) {
-  .articledetail{}
-}
+    .articledetail {
+        aspect-ratio: 1/2;
+    }
 
+    .articledetail > .imgquad:nth-child(2) {
+        display: none;
+    }
+    .articledetail > .imgquad:nth-child(4) {
+        display: none;
+    }
 
-.articleHeading{
-  font-family: Satisfy, serif;
-  font-size: clamp(3rem, 4vw, 5rem);
-}
-
-
-
-#articleHandMade{
-  background-image: url('../images/Waldhintergrund.jpg') ;
-  background-size: cover;
-  color: white;
-}
-
-#yourDesign{
-  background-image: url('../images/Herbsthintergrund.jpg') ;
-  background-size: cover;
-  color: white;
-}
-
-#yourChoice{
-  background-image: url('../images/Mädchen.jpg') ;
-  background-size: cover;
-  color: white;
-}
-
-
-.articledescription{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  text-align: center;
-}
-
-
-.imgquad{
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-}
-
-.imgSolo{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.articleImage{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.articleImageFull{
-  width: 100%;
+    .imgquad {
+        width: 100%;
+    }
 }
